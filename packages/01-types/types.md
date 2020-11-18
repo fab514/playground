@@ -74,3 +74,7 @@ The typeof command in your console will show the type of variable you are using 
 - You use null when you mean to set a value to nothing. 
 - Teller from Penn and Teller changed his first name to his last name.His first name is now Teller and he does not have a last name. 
 const teller = {first: 'Raymond', last: 'Teller'}; teller.first = 'teller'; teller.last = 'null'
+# Booleans and Equality
+## Booleans
+- Booleans mean true or false.
+- Can be used for logic set or [if] statements.
