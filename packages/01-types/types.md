@@ -67,6 +67,10 @@ The typeof command in your console will show the type of variable you are using 
 ## undefined
 - If you create a variable but is not set to a value when you try to access it will be shown as undefined (or not yet defined). 
 - Unlike undefined which is a created variable, trying to access something that has not been made into a variable will cause a reference error. 
+-(ex. const cher = {first: 'cher'})
 ## Null
 - Is a variable that is set to null (which means nothing). 
 - {const somethingnull = null}
+- You use null when you mean to set a value to nothing. 
+- Teller from Penn and Teller changed his first name to his last name.His first name is now Teller and he does not have a last name. 
+const teller = {first: 'Raymond', last: 'Teller'}; teller.first = 'teller'; teller.last = 'null'
