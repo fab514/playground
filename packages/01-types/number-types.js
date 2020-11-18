@@ -9,3 +9,6 @@ const kids = 3;
 const eachKidGets = Math.floor(smarties / kids);
 const dadGets = smarties % kids;
 console.log(`Each kid gets ${eachKidGets}`);
+
+const price = 1034;
+

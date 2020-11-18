@@ -62,3 +62,11 @@ The typeof command in your console will show the type of variable you are using 
 - ** is to the power of, so 10 ** 2 =100. 
 - If a number goes too high or two low where the computer does understand it will bring back infinity or -infinity. (these will both be defined as true numbers when using typeof)
 - NaN (Not a Number) If you try to use operations with something that is not a number you will see NaN. {ex. 10 / 'dog' = NaN}. When using the command typeof NaN it will however be listed as a number. 
+# Null and Undefined 
+- two types of variables that stand for nothing. 
+## undefined
+- If you create a variable but is not set to a value when you try to access it will be shown as undefined (or not yet defined). 
+- Unlike undefined which is a created variable, trying to access something that has not been made into a variable will cause a reference error. 
+## Null
+- Is a variable that is set to null (which means nothing). 
+- {const somethingnull = null}
