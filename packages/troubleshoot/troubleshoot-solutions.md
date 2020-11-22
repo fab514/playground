@@ -7,3 +7,8 @@
 - To block overide eslint put in /* eslint-disabled */
 - If there is a variable that is not used you can disable eslint by using // eslint-disable-next-line no-unused-vars // 
 - Error messages will give you the option to disable eslint for that one error. 
+
+## Can an html file have links to multiple js files? 
+
+## How to mv a repository into a different repository
+## Creating a repository through gitbash/local and moving it to Github

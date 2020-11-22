@@ -76,5 +76,12 @@ The typeof command in your console will show the type of variable you are using 
 const teller = {first: 'Raymond', last: 'Teller'}; teller.first = 'teller'; teller.last = 'null'
 # Booleans and Equality
 ## Booleans
-- Booleans mean true or false.
+- Booleans mean true or false. (on or off)
 - Can be used for logic set or [if] statements.
+- Could be used for number values < > = whether it is true of false.
+- const age = 18; const ofAge = age > 19; consol.log(ofAge) *This will be answered as false because the age variable of 18 is not greater then 19. 
+- Using a triple equal (===) is good practice, don't use double equal.
+- The reason for the triple equal is that it will check both the value and the type of each side. 10 === 10 (true, both mumbers) "10" === 10 (false, string and number). 10 == 10 (true) "10" = 10 (true, double equals does not check if the type is the same.)
+- Booleans can show if two variables are equal to each other. let age = 100; let age2 = 100; (in console age === age2 will be true)
+- booleans are important in flow control (talked about later in course).
+
