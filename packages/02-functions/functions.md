@@ -8,3 +8,5 @@
 - parseFloat(20.34324234) will return the same number. parseFloat('20.34324234') The string will again retun as a number. parseInt('20.34324234') will return as the number 20 which is an interger {whole number}. 
 - Date.now() does not need an argument it will come back with the amount of milliseconds from apx. January 1st 1970. 
 - console p = document.querySelector('p'); console.log('p'); The document.querySelector will search for the variable in the document, which in this case is p. If the paragraph say <p>Hey how ya doin?</p> this will be shown in javascript.
+- There are functions called doms which works within the html file.
+- When you don't know a variable to put in a certain function you can search online at mozilla developer (mdn). Such as in navigation.vibrate() 

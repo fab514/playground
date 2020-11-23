@@ -1,0 +1,26 @@
+/* eslint-disable prettier/prettier */
+
+<head>
+    <title>The Vibration API</title>
+    <link rel="stylesheet" href="/assets/decode.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="viewport" content="width-device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <h1>The Vibration API</h1>
+    <button class="button" onclick="vibrate(1000)">Vibrate Single</button><br>
+    <button class="button" onclick="vibratePattern">Vibrate Pattern</button>
+
+
+    <script>
+        function vibrate(ms) {
+            navigator.vibrate(ms);
+        }
+        function vibratePattern() {
+            navigator.vibrate([300, 100, 300, 100, 300]);
+        }
+    </script>
+</body>
