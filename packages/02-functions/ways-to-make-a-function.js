@@ -24,10 +24,28 @@
 //   }
 // get rid of function block (One line, on left side of fat arrow shows function on right side shows return)
 
-const inchToCM = inches => inches * 2.54;
+// const inchToCM = inches => inches * 2.54;
 
-// const add = (a, b = 3) => total (a + b)
-function add(a, b = 3) {
-    const total = a + b;
-    return total;
+// const add = (a, b = 3) => a + b;
+
+// returning an object 
+// function makeACat(first, last) {
+//     const cat = {
+//         name: `${first} ${last}`,
+//         age: 0
+//     }
+//     return cat;
+// }
+const makeACat = (first,last) => ({ name: `${first} ${last}`, age: 0 });
+// IIFE
+// Immediately Invoked Function Expression
+
+// (function() {
+//     console.log('Running the Anon Function');
+//     return 'You are cool';
+// })();
+
+// methods!!
+const wes = {
+    
 }
