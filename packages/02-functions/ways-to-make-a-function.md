@@ -30,4 +30,24 @@ function makeACat(first, last) {
  ## IIFE (Immediately Invoked Function Expression)
  - in JS paranthesis are read first no matter where they are. If you put paranthesis around your function it will run that function first and is considered a IIFE. 
  ## Methods
- - console.log, console is an object and log is a function. You can use other function within console object. When putting a function with an object is called a method. 
+ - console.log, console is an object and log is a function. You can use other function within console object. 
+ - A method is when you put a function inside of an object. The property in your object can be set to a function. 
+
+ ```js
+ // wes is the variable being declared
+ // the braces and everything inside are the object
+const wes = {
+    // name is a key, 'Wes Bos' is a value
+  name: 'Wes Bos',
+  sayHi: function() {
+    console.log('Hey Wes');
+    return 'Hey Wes';
+  }
+}
+ ```
+ - 
+- console.log  (console is an object) (.log is the function)
+
+## You can use function in multiple places of your code. example where you need input/output. You do not want to correct/write the function multiple times so you can change the original function once and each place that function is in gets changed as well.
+## callback function
+- a function that is called back from another function that will be used at a later time. Example is when you use button. 
