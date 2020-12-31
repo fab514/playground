@@ -1,3 +1,4 @@
+console.log('object here');
 // Object (person) with sub-variables
 
 const person = {

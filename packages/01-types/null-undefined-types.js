@@ -1,3 +1,4 @@
+console.log('null here!');
 // eslint-disable-next-line prefer-const
 let dog;
 

@@ -1,14 +1,15 @@
-const age = 100;
-const name = 'felicia';
+console.log('number here!');
 
-// const a = 10;
-// const b = 20;
+// const age = 100;
+// const name = 'felicia';
 
-const smarties = 20;
-const kids = 3;
-const eachKidGets = Math.floor(smarties / kids);
-const dadGets = smarties % kids;
-console.log(`Each kid gets ${eachKidGets}`);
+// // const a = 10;
+// // const b = 20;
 
-const price = 1034;
+// const smarties = 20;
+// const kids = 3;
+// const eachKidGets = Math.floor(smarties / kids);
+// const dadGets = smarties % kids;
+// console.log(`Each kid gets ${eachKidGets}`);
 
+// const price = 1034;
