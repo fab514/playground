@@ -1,27 +1,32 @@
 # Types
-Values into variables, can be stuck in a variable or pass to a function like console.log
+Values into variables, can be stuck in a variable or pass to a function like console.log. Whenever you use values in your code it fall under one of the 7 types of values.
 
 Types of values
 - SNOB'N'US
-- String
-- Numbers
-- Boolean (true or false)
-- Null (set to nothing)
-- Undefined (set to nothing)
-- Symbol (unique identifier)
-- Object (all code is object)
+- String- whenever you have a line of text. 
+- Numbers- whenever you use numbers. These numbers do not have decimal.
+- Boolean- when you are using true or false statements
+- Null- set to nothing
+- Undefined- set to nothing
+- Symbol- unique identifier. Can be used to make the identifier unique against other identifiers.
+- Object- all things in javascript are considered objects.
 
-# Type: Strings
-- 'Single' "Double" and `Back ticks` can be used 
-- Back slashes will cancel out unwanted code. 'she/'s so cute' Without backslash the JS code will stop at 'she'.
-- When wanting to use multiple lines `back ticks`
+## Type: Strings
+- 'Single' "Double" and `Back ticks` can be used. Back ticks can be used to stop breaking the java script. If you want to put a word with 's that will break the code. If you would like to use single quotes you can use escaping. 
+- Escaping the break of code. Back slashes will cancel out unwanted code. 'she/'s so cute' Without backslash the JS code will stop at 'she'.
+- When wanting to use multiple lines in code use `back ticks`. This is helpful when using HTML.
 `I
 Love 
 it`
 ## concatination
+- When two or more strings are combined into one. 
+```js
 const hello = 'hello my name is' + name + ". Nice to meet you";
-## interperable
-variable within a string 
+```
+## Deprecarted
+- This page lists features of JavaScript that are deprecated (that is, still available but planned for removal) and obsolete (that is, no longer usable)
+## interpelation
+- When you put a variable inside of a string. 
  templateLiteral = `${name} ${middle} ${last}`;
 
  ## Other types of string

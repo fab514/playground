@@ -1,3 +1,4 @@
+/* eslint-disabled */
 console.log('string here!');
 const name = 'felicia';
 const middle = 'ann';
@@ -15,15 +16,16 @@ const song = `Ohh
 yeah
 I like
 pizza!`;
+function hello() {
+  const templateLiteral = `${name} ${middle} ${last}`;
 
-const templateLiteral = `${name} ${middle} ${last}`;
+  const concatination = name + middle + last;
 
-const concatenation = name + middle + last;
-
-const hello = `Hello my name is ${name}. Nice to meet you. I am ${
-  1 + 100
-} years old.`;
-
+  const hi = `Hello my name is ${name}. Nice to meet you. I am ${
+    1 + 100
+  } years old.`;
+  
+hello();
 const html = `
     <div>
         <h2>name</h2>
