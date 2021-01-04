@@ -45,9 +45,10 @@ const wes = {
   }
 }
  ```
- - 
+ 
 - console.log  (console is an object) (.log is the function)
 
-## You can use function in multiple places of your code. example where you need input/output. You do not want to correct/write the function multiple times so you can change the original function once and each place that function is in gets changed as well.
+## You can use function in multiple places of your code. 
+- example where you need input/output. You do not want to correct/write the function multiple times so you can change the original function once and each place that function is in gets changed as well.
 ## callback function
 - a function that is called back from another function that will be used at a later time. Example is when you use button. 
