@@ -43,9 +43,8 @@ const html = `
 document.body.innerHTML = html;
 console.log(html);
 
-# Number
-{Dan question- can I have multiple js sources in the same html file? Also, why did I have a hard time with commenting function}
-## typeof 
+
+## typeof number
 The typeof command in your console will show the type of variable you are using in that command.
 - [in vs code] const age = '100' const name = 'felicia'
 - [in browser console] typeof name "string" typeof age "number"
